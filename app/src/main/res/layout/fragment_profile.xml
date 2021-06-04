@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rifianhimakotak"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foto"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:text="Rifian Joe Premilenio" />
+
+    <ImageButton
+        android:id="@+id/instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/instagram"/>
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maps"
+        android:layout_below="@id/instagram"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
